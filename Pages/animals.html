@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mullen Aquarium - Animals</title>
     <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="../styles.css">
 </head>
@@ -22,29 +22,34 @@
         <li class="nav-item">
           <a class="nav-link" href="visit.html">Visit</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Events</a>
-        </li>
+        
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="animals.html" role="button" data-toggle="dropdown" aria-expanded="false">
             Animals
           </a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="animals.html">All Animals</a>
-            <a class="dropdown-item" href="#">Mammals</a>
-            <a class="dropdown-item" href="#">Fish</a>
-            <a class="dropdown-item" href="#">Birds</a>
+            <a class="dropdown-item" href="mammals.html">Mammals</a>
+            <a class="dropdown-item" href="fish.html">Fish</a>
+            <a class="dropdown-item" href="birds.html">Birds</a>
           </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
         </li>
       </ul>
     </div>
   </nav>
-
+  
+  <section>
   <div class="container">
+<div class="video-background">
+  
     <div class="row">
       <div class="col-lg-12">
         <div class="d-flex justify-content-center">
-    <video autoplay loop width="1000">
+    <video id="animal-video" autoplay loop width="1000">
   
       <source src="../aquarium-images/manta-ray-clip.mp4" type="video/mp4">
   
@@ -53,96 +58,104 @@
 </div>
 </div>
   </div>
-
+</div>
+</section>
+<section>
   <div class="container">
+    <div class="row">
+
+
+
+    </div>
     <div class="row">
       <div class="col-md">
         <div class="card" style="width: 18rem;">
-          <img src="../aquarium-images/sea-otter.jpg" class="card-img-top img-fluid" alt="sea otter">
+          <img src="../aquarium-images/sea-otter.jpg" class="card-img-top" alt="sea otter">
           <div class="card-body">
             <h5 class="card-title">Mammals</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <p class="card-text">From seals to otters, visitors love to see our many mammals in their enclosures.</p>
+            <a href="mammals.html" class="btn btn-primary">See our mammals</a>
           </div>
         </div>
       </div>
       <div class="col-md">
         <div class="card" style="width: 18rem;">
-          <img src="../aquarium-images/fish.jpg" class="card-img-top img-fluid" alt="fish">
+          <img src="../aquarium-images/fish.jpg" class="card-img-top" alt="fish">
           <div class="card-body">
             <h5 class="card-title">Fish</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <p class="card-text">Throughout our 25 aquarium tanks, immerse yourself in the world of fish.</p>
+            <a href="fish.html" class="btn btn-primary">See our fish</a>
           </div>
         </div>
       </div>
       <div class="col-md">
         <div class="card" style="width: 18rem;">
-          <img src="../aquarium-images/puffins.jpg" class="card-img-top img-fluid" alt="puffins">
+          <img src="../aquarium-images/puffins.jpg" class="card-img-top" alt="puffins">
           <div class="card-body">
             <h5 class="card-title">Birds</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <p class="card-text">With some that fly and some that swim, we have a delightful bunch of birds.</p>
+            <a href="birds.html" class="btn btn-primary">See our birds</a>
           </div>
         </div>
       </div>
     </div>
   </div>
+</section>
 
-  <div class="footer-header-background">
-  <div class="container">
-    <footer class="py-5">
-      <div class="row">
-        <div class="col-6 col-md-2 mb-3">
-          <h5>Mullen Aquarium</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Visit</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Events</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-            
-          </ul>
-        </div>
-  
-        <div class="col-6 col-md-2 mb-3">
-          <h5>Animals</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Animals</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Mammals</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Fish</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Birds</a></li>
-          </ul>
-        </div>
-  
-        <div class="col-6 col-md-2 mb-3">
-          
-        </div>
-  
-        <div class="col-md-5 offset-md-1 mb-3">
-          <form>
-            <h5>Subscribe to our newsletter</h5>
-            <p>Monthly digest of what's new and exciting from us.</p>
-            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-              <label for="newsletter1" class="visually-hidden">Email address</label>
-              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-              <button class="btn btn-primary" type="button">Subscribe</button>
+ <div class="footer-header-background">
+      <div class="container">
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Mullen Aquarium</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="homepage.html" class="nav-link p-0 text-muted">Home</a></li>
+                <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-muted">About</a></li>
+                <li class="nav-item mb-2"><a href="visit.html" class="nav-link p-0 text-muted">Visit</a></li>
+                <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 text-muted">Contact</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                
+              </ul>
             </div>
-          </form>
-        </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              <h5>Animals</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="animals.html" class="nav-link p-0 text-muted">Animals</a></li>
+                <li class="nav-item mb-2"><a href="mammals.html" class="nav-link p-0 text-muted">Mammals</a></li>
+                <li class="nav-item mb-2"><a href="fish.html" class="nav-link p-0 text-muted">Fish</a></li>
+                <li class="nav-item mb-2"><a href="birds.html" class="nav-link p-0 text-muted">Birds</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3">
+              
+            </div>
+      
+            <div class="col-md-5 mb-3">
+              <form>
+                <h5>Subscribe to our newsletter</h5>
+                <p>Monthly digest of what's new and exciting from us.</p>
+                <div class="d-flex w-100 gap-3">
+                  
+                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                  <button class="btn btn-primary btn-group-sm mb-3" type="button">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+      
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>© 2022 Company, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+              <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+            </ul>
+          </div>
+        </footer>
       </div>
-  
-      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-        <p>© 2022 Company, Inc. All rights reserved.</p>
-        <ul class="list-unstyled d-flex">
-          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
-        </ul>
-      </div>
-    </footer>
-  </div>
-  </div>
+    </div>
 
     <script src="../../node_modules/jquery/dist/jquery.js"></script>
     <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>

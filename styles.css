@@ -1,6 +1,6 @@
 .card-img-top {
     width: 100%;
-    height: 15vw;
+    height: 30vh;
     object-fit: cover;
 }
 
@@ -9,6 +9,45 @@
 }
 
 #visit {
-    background-color: black;
+    background-color: rgb(37, 43, 72);
     padding: 40px;
+}
+
+section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.card {
+    margin: 1rem;
+}
+
+#animal-video {
+    width: 100%;
+    height: auto;
+}
+
+#about-text {
+    color: white;
+}
+
+#about-visit-text {
+    color: white;
+    text-align: center;
+}
+
+.jumbotron {
+    background-image: url(aquarium-images/coral.jpg);
+    width: 100vw;
+    color: white;
+    padding-bottom: 40%;
+    padding-top: 10%;
+}
+
+.animal-headers {
+    text-align: center;
+}
+
+.animal-text {
+    text-align: center;
 }
