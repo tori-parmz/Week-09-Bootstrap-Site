@@ -8,7 +8,7 @@
     background-color: #bcdde0;
 }
 
-#visit {
+#about {
     background-color: rgb(37, 43, 72);
     padding: 40px;
 }
@@ -50,4 +50,8 @@ section {
 
 .animal-text {
     text-align: center;
+}
+
+#table-text{
+    color: white;
 }

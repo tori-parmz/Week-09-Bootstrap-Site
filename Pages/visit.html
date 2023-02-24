@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-
+<!--Nav Bar-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="homepage.html">Mullen Aquarium</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,16 +43,45 @@
     </div>
   </nav>
   
-  
+ <!--Jumbotron with table for prices--> 
     <div class="jumbotron">
       <h1 class="display-4">Reserve Tickets</h1>
       <p class="lead" wrap="80vw">Whether it's for the day or for the whole year, you can use our third-party ticket seller to purchase tickets.</p>
       <hr class="my-4">
-      <p>Members recieve a 10% discount on all ticket prices.</p>
+      <p>Members recieve a 12% discount on all ticket prices.</p>
+      <table class="table" id="table-text" style="width:60vw;">
+        <thead>
+          <tr>
+            <th scope="col">Ticket Type</th>
+            
+            <th scope="col">Nonmember Price</th>
+            <th scope="col">Member Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Adult</th>
+            <td>$25.00</td>
+            <td>$22.00</td>
+          </tr>
+          <tr>
+            <th scope="row">Child (11 y/o and under)</th>
+            
+            <td>$15.00</td>
+            <td>$13.20</td>
+          </tr>
+          <tr>
+            <th scope="row">Senior</th>
+            <td>$20.00</td>
+            <td>$17.60</td>
+          </tr>
+        </tbody>
+      </table>
       <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
     </div>
     
-
+    
+<!--Footer-->
     <div class="footer-header-background">
       <div class="container">
         <footer class="py-5">
@@ -107,11 +136,6 @@
         </footer>
       </div>
     </div>
-      
-
-
-
-      
 
     <script src="../node_modules/jquery/dist/jquery.js"></script>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
